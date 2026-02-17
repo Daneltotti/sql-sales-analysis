@@ -21,6 +21,15 @@ FROM customers
 GROUP BY customer_id
 HAVING COUNT(*) > 1;
 
+/*Tratamiento de datos duplicados*/
+WITH duplicados AS (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY customer_id) AS rn
+    FROM customers
+)
+DELETE FROM duplicados
+WHERE rn > 1;
+
 /* Fechas potencialmente problemáticas */
 SELECT order_id, order_date
 FROM orders
