@@ -45,11 +45,21 @@ Se realiza una exploración general para entender la estructura:
 ## 📊 03 — KPIs principales
 
 Se extraen métricas clave del negocio:
-- Total de ventas
-- Ticket promedio
-- Clientes con mayor volumen
-- Productos más vendidos
-- Ranking por categoría
+- Cliente que mas ha comprado
+- ![Busqueda de Clientes](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Busqueda%20Cliente%20mas%20ha%20comprado.png)
+- ![Resultado de Clientes](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Respuesta%20cliente%20mas%20ah%20comprado.png)
+- Categoria mas vendida
+- ![Busqueda de Categoria](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Busqueda%20categoria%20mas%20vendida.png)
+- ![Resultado de Categoria](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Respuesta%20%20categoria%20mas%20vendida.png)
+- Producto mas vendido
+- ![Busqyeda de producto](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Busqueda%20producto%20mas%20vendido.png)
+- ![Resultado de producto](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Respuesta%20producto%20mas%20vendido.png)
+- Promedio de ventas mensuales
+- ![Busqueda de ventas](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Busqueda%20promedio%20de%20ventas%20mensuales.png)
+- ![Resultado de ventas](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Respuesta%20promedio%20de%20ventas%20mensuales.png)
+- Ingreso total generado
+- ![Busqueda de Ingresos](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Busqueda%20ingreso%20total%20generado.png)
+- ![Resultado de ingresos](https://github.com/Daneltotti/sql-sales-analysis/blob/206d93538147329c855b92685980c72431400aba/Image/Respuesta%20ingreso%20total%20generado.png)
 
 ---
 
