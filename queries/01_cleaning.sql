@@ -22,13 +22,15 @@ GROUP BY customer_id
 HAVING COUNT(*) > 1;
 
 /*Tratamiento de datos duplicados*/
-WITH duplicados AS (
-    SELECT *,
+DELETE c
+FROM customers c
+JOIN (
+    SELECT customer_id,
            ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY customer_id) AS rn
     FROM customers
-)
-DELETE FROM duplicados
-WHERE rn > 1;
+) t
+ON c.customer_id = t.customer_id
+WHERE t.rn > 1;
 
 /* Fechas potencialmente problemáticas */
 SELECT order_id, order_date
