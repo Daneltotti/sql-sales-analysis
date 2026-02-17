@@ -8,7 +8,7 @@ Este proyecto realiza un análisis completo de datos de ventas usando SQL, sigui
 
 Se verifica la calidad del dataset:
 - Búsqueda de valores nulos en claves primarias
-- ![Búsqueda de nulos](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Busqueda%20de%20valores%20nulos.png.png)
+- ![Búsqueda de nulos](https://github.com/Daneltotti/sql-sales-analysis/blob/3ea3dce09632fe5aa625be354fc81116f793140c/Image/Busqueda%20de%20valores%20nulos.png)
 - ![Resultados de nulos](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20valores%20nulos.png)
 - Detección de duplicados
 - ![Busqueda de duplicados](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Deteccion%20de%20duplicados.png)
