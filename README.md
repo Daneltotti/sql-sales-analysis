@@ -17,9 +17,13 @@ Se verifica la calidad del dataset:
 
 ## Tratamiento de duplicados
 
-Tras revisar los registros duplicados, se confirmó que eran entradas idénticas para el mismo `customer_id`.  
-Para mantener la integridad del dataset, se conservaron únicamente los registros únicos utilizando una estrategia basada en `ROW_NUMBER()`:
-No hay mas duplicados
+Tras revisar los registros duplicados, se confirmó que eran entradas idénticas para el mismo cliente.
+Para mantener la integridad del dataset, se decidió conservar solo un registro por cliente.
+
+Como MySQL no permite eliminar directamente desde una CTE, se utilizó una estrategia basada en ROW_NUMBER() combinada con un JOIN:
+✔️ Todos los duplicados fueron eliminados
+✔️ La tabla quedó con un registro único por cliente
+✔️ La integridad del dataset quedó garantizada
 - ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f117f614417761b6015aa1152277621d0759cd9f/Image/Busqueda%20de%20duplicados.png)
 - ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f117f614417761b6015aa1152277621d0759cd9f/Image/Resultado%20de%20duplicados.png)
 - Validación de fechas y precios
