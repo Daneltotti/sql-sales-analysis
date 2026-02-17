@@ -4,7 +4,7 @@ Este proyecto realiza un análisis completo de datos de ventas usando SQL, sigui
 
 ---
 
-## 🧼 01 — Limpieza de datos
+## 01 — Limpieza de datos
 
 Se verifica la calidad del dataset:
 - Búsqueda de valores nulos en claves primarias
@@ -13,6 +13,15 @@ Se verifica la calidad del dataset:
 - Detección de duplicados
 - ![Busqueda de duplicados](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Deteccion%20de%20duplicados.png)
 - ![Resultados de Duplicados](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20duplicados.png)
+
+
+## Tratamiento de duplicados
+
+Tras revisar los registros duplicados, se confirmó que eran entradas idénticas para el mismo `customer_id`.  
+Para mantener la integridad del dataset, se conservaron únicamente los registros únicos utilizando una estrategia basada en `ROW_NUMBER()`:
+No hay mas duplicados
+- ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f117f614417761b6015aa1152277621d0759cd9f/Image/Busqueda%20de%20duplicados.png)
+- ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f117f614417761b6015aa1152277621d0759cd9f/Image/Resultado%20de%20duplicados.png)
 - Validación de fechas y precios
 - ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Fechas%20Problematicas.png)
 - ![Resultados de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20fechas%20problematicas.png)
@@ -21,7 +30,7 @@ Se verifica la calidad del dataset:
 - ![Resultados de precios irregulares](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultados%20de%20Productos%20con%20precios%20irregulares.png)
 ---
 
-## 🔍 02 — Exploración inicial
+## 02 — Exploración inicial
 
 Se realiza una exploración general para entender la estructura:
 - Conteo de registros por tabla
@@ -42,7 +51,7 @@ Se realiza una exploración general para entender la estructura:
 
 ---
 
-## 📊 03 — KPIs principales
+## 03 — KPIs principales
 
 Se extraen métricas clave del negocio:
 - Cliente que mas ha comprado
@@ -63,7 +72,7 @@ Se extraen métricas clave del negocio:
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 ├── consultas/
@@ -77,13 +86,13 @@ Se extraen métricas clave del negocio:
 
 ---
 
-## 📦 Dataset utilizado
+## Dataset utilizado
 
 [Bike Store Sample Database — Kaggle](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)
 
 ---
 
-## 🧠 Autor
+## Autor
 
 **Danel Berotto**  
 Analista de Datos Junior en transición desde entorno industrial.  
