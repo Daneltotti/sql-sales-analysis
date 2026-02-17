@@ -8,20 +8,37 @@ Este proyecto realiza un análisis completo de datos de ventas usando SQL, sigui
 
 Se verifica la calidad del dataset:
 - Búsqueda de valores nulos en claves primarias
+- ![Búsqueda de nulos](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Busqueda%20de%20valores%20nulos.png.png)
+- ![Resultados de nulos](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20valores%20nulos.png)
 - Detección de duplicados
+- ![Busqueda de duplicados](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Deteccion%20de%20duplicados.png)
+- ![Resultados de Duplicados](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20duplicados.png)
 - Validación de fechas y precios
+- ![Busqueda de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Fechas%20Problematicas.png)
+- ![Resultados de fechas](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultado%20de%20fechas%20problematicas.png)
 - Confirmación de integridad en las tablas principales
-
+- ![Busqueda de precios irregulares](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Productos%20con%20precios%20irregulares.png)
+- ![Resultados de precios irregulares](https://github.com/Daneltotti/sql-sales-analysis/blob/f3bab56e3f8b8c88ac04fd92d7d88b26d64e0631/Image/Resultados%20de%20Productos%20con%20precios%20irregulares.png)
 ---
 
 ## 🔍 02 — Exploración inicial
 
 Se realiza una exploración general para entender la estructura:
 - Conteo de registros por tabla
+- ![Búsqueda de registros](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Busqueda%20de%20registros.png)
+- ![Resultado de registros](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Resultado%20de%20registros.png)
 - Productos únicos
+- ![Búsqueda de Productos](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Busqueda%20de%20productos.png)
+- ![Resultado de Productos](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Resultados%20de%20productos.png)
 - Clientes activos
+- ![Búsqueda de Clientes](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Busqueda%20de%20clientes.png)
+- ![Resultado de Clientes](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Resultados%20de%20clientes.png)
 - Distribución de pedidos
+- ![Búsqueda de pedidos](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Busqueda%20de%20pedidos.png)
+- ![Resultado de pedidos](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Resultados%20de%20pedidos.png)
 - Categorías disponibles
+- ![Búsqueda de Categorías](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Busqueda%20de%20categorias.png)
+- ![Resultado de Categorías](https://github.com/Daneltotti/sql-sales-analysis/blob/5c98d74e1b71c760802d92a7f25a7f96abee8314/Image/Resultado%20de%20categorias.png)
 
 ---
 
